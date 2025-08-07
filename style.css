@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.hole {
+    width: 90px;
+    height: 90px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.mole {
+    background-image: url('mole.png'); /* We will create this later */
+    background-size: cover;
+}
